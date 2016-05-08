@@ -1,0 +1,8 @@
+Flask==0.10.1
+Flask-RESTful==0.3.3
+unidecode
+joblib
+jsonpath_rw
+numpy>=1.6.1
+scikit-learn
+tornado
