@@ -18,3 +18,4 @@ def get_face_bb(imgPath):
 print(get_face_bb("test_img/royal.jpg"))
 print(get_face_bb("test_img/clapton.jpg"))
 print(get_face_bb("test_img/family.jpg"))
+print(get_face_bb("test_img/students.jpg"))
