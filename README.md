@@ -32,14 +32,18 @@ By default, the master node exposes four resources:
 * `api/health`: indicates whether the server is up and running
 * `api/bbox`: given an image, a list of the bounding boxes for
 all detected faces is returned
-* `api/features`: given an image, the set of landmarks for each
-detected face are returned
-* `api/align`: given an image, an aligned representation of each
-face is returned
+* `api/features`: (in progress) given an image, the set of
+landmarks for each detected face are returned
+* `api/align`:  (in progress) given an image, an aligned
+representation of each face is returned
 Other resources can be added easily by adding them in the script
 `app.py`.
 
 ### Image data type
 
-
+Image data is currently passed via a JSON object that gives
+flattened pixel intensities and the dimensionality of the image
+object. This will be changed in the near future to instead pass
+a more compressed representation (such as the raw bytes from
+a jpeg object).
 
