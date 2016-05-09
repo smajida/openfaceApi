@@ -5,7 +5,7 @@ import openface
 
 import numpy as np
 
-class face_detector:
+class OpenFaceAPI:
 
     def __init__(self):
         self.align = openface.AlignDlib("/root/openface/models/dlib/shape_predictor_68_face_landmarks.dat")
